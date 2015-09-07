@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,700italic,400italic,300italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+* {
+  margin: 0;
+  padding: 0; }
+
+address {
+  padding-bottom: 35px; }
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 960px;
+  margin: 0 auto; }
+
+h2, h3 {
+  font-family: "Roboto Slab", "Times New Roman", serif; }
+
+p {
+  font-size: 14px; }
+
+.article {
+  float: left;
+  margin: 15px 0;
+  width: 705px; }
+
+.article-preview img {
+  width: 200px; }
+
+.article-preview p {
+  padding-bottom: 10px; }
+
+.article-preview {
+  background-color: #e7e7e7;
+  float: left;
+  padding: 10px;
+  margin: 15px 15px 0 0;
+  width: 200px; }
+
+.article-view img {
+  display: block;
+  padding: 15px 0 35px 0;
+  margin: 0 auto; }
+
+.article-view p {
+  padding-bottom: 20px; }
+
+.article-view {
+  background-color: #e7e7e7;
+  margin-right: 15px;
+  padding: 50px; }
+
+.articles {
+  float: left;
+  width: 705px; }
+
+.articles-nav {
+  clear: both;
+  padding: 25px 0;
+  text-align: center;
+  width: 705px; }
+
+.articles-nav a {
+  padding-left: 10px;
+  text-decoration: none; }
+
+.more-btn a {
+  text-decoration: none; }
+
+.more-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  padding: 5px 25px;
+  width: 66px; }
+
+.blog-header {
+  background-color: #e7e7e7;
+  height: 200px;
+  margin-top: 25px;
+  overflow: hidden;
+  width: 100%; }
+
+.logo {
+  font-size: 31px;
+  line-height: 200px;
+  margin-left: 25px;
+  vertical-align: middle; }
+
+.social-share li {
+  float: left;
+  list-style: none; }
+
+.social-share {
+  float: right;
+  margin-top: 25px; }
+
+.primary-nav li {
+  font-size: 24px;
+  display: inline-block;
+  list-style: none;
+  margin-right: 25px; }
+
+.primary-nav ul {
+  line-height: 80px;
+  margin-left: 25px;
+  vertical-align: middle; }
+
+.primary-nav {
+  background-color: #e7e7e7;
+  height: 80px;
+  margin-top: 20px;
+  overflow: hidden;
+  width: 100%; }
+
+.recent-articles h2 {
+  padding-bottom: 25px; }
+
+.recent-articles p {
+  padding-bottom: 35px; }
+
+.recent-articles {
+  background-color: #e7e7e7;
+  float: right;
+  padding: 15px;
+  margin-top: 15px;
+  width: 225px; }
+
+.see-all {
+  float: right;
+  text-decoration: none; }
+
+footer {
+  background-color: #e7e7e7;
+  overflow: hidden;
+  clear: both; }
+
+.copyright {
+  line-height: 140px;
+  margin-left: 25px;
+  vertical-align: middle;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.primary-nav li {
+	font-size: 24px;
+	display: inline-block;
+	list-style: none;
+	margin-right: 25px;
+}
+
+.primary-nav ul {
+	line-height: 80px;
+	margin-left: 25px;
+	vertical-align: middle;
+}
+
+.primary-nav {
+	background-color: #e7e7e7;
+	height: 80px;
+	margin-top: 20px;
+	overflow: hidden;
+	width: 100%;
+}
