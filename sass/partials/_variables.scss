@@ -1,10 +1,17 @@
 // Google Fonts
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,700italic,400italic,300italic);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Sofadi+One);
 
 // Tipografías
-$general-text:'Roboto', 'Arial', sans-serif;
-$headings: 'Roboto Slab', 'Times New Roman', serif;
+$general-text:'Arvo', 'Arial', sans-serif;
+$headings: 'Sofadi One', 'Times New Roman', serif;
+
+//Colours
+$light-background: #F6F7BD;
+$body-background: #80BCA3;
+$links: #E6AC27;
+$otherText-color: #F6F7BD;
+$dark-background: #655643;
 
 // Layout
-$content-width: 960px;
+$content-width: 1024px;

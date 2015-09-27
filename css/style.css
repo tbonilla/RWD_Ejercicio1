@@ -1,27 +1,46 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,700italic,400italic,300italic);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Sofadi+One);
 * {
   margin: 0;
   padding: 0; }
+
+a {
+  color: #E6AC27;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
 
 address {
   padding-bottom: 35px; }
 
 body {
-  font-family: "Roboto", "Arial", sans-serif;
-  width: 960px;
+  background-color: #80BCA3;
+  font-family: "Arvo", "Arial", sans-serif;
+  width: 1024px;
   margin: 0 auto; }
 
-h2, h3 {
-  font-family: "Roboto Slab", "Times New Roman", serif; }
+h1, h2, h3 {
+  font-family: "Sofadi One", "Times New Roman", serif;
+  margin: 0; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 22px; }
 
 p {
-  font-size: 14px; }
+  font-size: 16px; }
 
 .article {
   float: left;
-  margin: 15px 0;
-  width: 705px; }
+  margin: 20px 0;
+  width: 75%; }
+
+.preview-container {
+  margin: 0 auto;
+  width: 200px; }
 
 .article-preview img {
   width: 200px; }
@@ -30,11 +49,14 @@ p {
   padding-bottom: 10px; }
 
 .article-preview {
-  background-color: #e7e7e7;
+  background-color: #F6F7BD;
   float: left;
-  padding: 10px;
-  margin: 15px 15px 0 0;
-  width: 200px; }
+  padding: 15px 10px;
+  margin: 20px 20px 0 0;
+  width: 28%; }
+
+.article-view h2 {
+  font-size: 32px; }
 
 .article-view img {
   display: block;
@@ -45,35 +67,42 @@ p {
   padding-bottom: 20px; }
 
 .article-view {
-  background-color: #e7e7e7;
-  margin-right: 15px;
+  background-color: #F6F7BD;
+  margin-right: 25px;
   padding: 50px; }
 
 .articles {
   float: left;
-  width: 705px; }
+  width: 75%; }
 
 .articles-nav {
   clear: both;
   padding: 25px 0;
   text-align: center;
-  width: 705px; }
+  width: 70%; }
 
 .articles-nav a {
+  color: #F6F7BD;
   padding-left: 10px;
   text-decoration: none; }
 
-.more-btn a {
-  text-decoration: none; }
-
 .more-btn {
-  background-color: #FFFFFF;
-  border: 1px solid #000000;
-  padding: 5px 25px;
-  width: 66px; }
+  background-color: #655643;
+  padding: 10px 25px;
+  width: 72px; }
+
+.pubdate {
+  font-size: 14px; }
+
+.social-share li {
+  float: left;
+  list-style: none; }
+
+.social-share {
+  float: right; }
 
 .blog-header {
-  background-color: #e7e7e7;
+  background-image: url(../imgs/pattern.png);
   height: 200px;
   margin-top: 25px;
   overflow: hidden;
@@ -81,23 +110,18 @@ p {
 
 .logo {
   font-size: 31px;
+  height: 0;
   line-height: 200px;
   margin-left: 25px;
-  vertical-align: middle; }
-
-.social-share li {
-  float: left;
-  list-style: none; }
-
-.social-share {
-  float: right;
-  margin-top: 25px; }
+  vertical-align: middle;
+  width: 295px; }
 
 .primary-nav li {
   font-size: 24px;
   display: inline-block;
   list-style: none;
-  margin-right: 25px; }
+  margin-right: 25px;
+  text-decoration: none; }
 
 .primary-nav ul {
   line-height: 80px;
@@ -105,35 +129,40 @@ p {
   vertical-align: middle; }
 
 .primary-nav {
-  background-color: #e7e7e7;
+  background-color: #655643;
   height: 80px;
   margin-top: 20px;
   overflow: hidden;
   width: 100%; }
 
 .recent-articles h2 {
+  color: #F6F7BD;
   padding-bottom: 25px; }
 
 .recent-articles p {
+  color: #F6F7BD;
   padding-bottom: 35px; }
 
 .recent-articles {
-  background-color: #e7e7e7;
+  background-color: #655643;
   float: right;
   padding: 15px;
-  margin-top: 15px;
-  width: 225px; }
+  margin-top: 20px;
+  width: 22%; }
 
 .see-all {
   float: right;
   text-decoration: none; }
 
 footer {
-  background-color: #e7e7e7;
+  background-image: url(../imgs/pattern.png);
+  clear: both;
   overflow: hidden;
-  clear: both; }
+  margin-bottom: 20px;
+  margin-top: 150px; }
 
 .copyright {
+  color: #F6F7BD;
   line-height: 140px;
   margin-left: 25px;
   vertical-align: middle;

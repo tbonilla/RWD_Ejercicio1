@@ -3,6 +3,7 @@
 	display: inline-block;
 	list-style: none;
 	margin-right: 25px;
+	text-decoration: none;
 }
 
 .primary-nav ul {
@@ -12,7 +13,7 @@
 }
 
 .primary-nav {
-	background-color: #e7e7e7;
+	background-color: $dark-background;
 	height: 80px;
 	margin-top: 20px;
 	overflow: hidden;

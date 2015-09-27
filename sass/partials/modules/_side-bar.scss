@@ -1,17 +1,19 @@
 .recent-articles h2 {
+	color: $otherText-color;
 	padding-bottom: 25px;
 }
 
 .recent-articles p {
+	color: $otherText-color;
 	padding-bottom: 35px;
 }
 
 .recent-articles {
-	background-color: #e7e7e7;
+	background-color: $dark-background;
 	float: right;
 	padding: 15px;
-	margin-top: 15px;
-	width: 225px;
+	margin-top: 20px;
+	width: 22%;
 }
 
 .see-all {

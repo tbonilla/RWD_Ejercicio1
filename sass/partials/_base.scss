@@ -3,28 +3,52 @@
 	padding: 0;
 }
 
+a {
+	color: $links;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 address {
 	padding-bottom: 35px;
 }
 
 body {
+	background-color: $body-background;
 	font-family: $general-text;
 	width: $content-width;
 	margin: 0 auto;
 }
 
-h2, h3 {
+h1, h2, h3 {
 	font-family: $headings;
+	margin: 0;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 22px;
 }
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .article {
 	float: left;
-	margin: 15px 0;
-	width: 705px;
+	margin: 20px 0;
+	width: 75%;
+}
+
+.preview-container {
+	margin: 0 auto;
+	width: 200px;
 }
 
 .article-preview img {
@@ -36,11 +60,15 @@ p {
 }
 
 .article-preview {
-	background-color: #e7e7e7;
+	background-color: $light-background;
 	float: left;
-	padding: 10px;
-	margin: 15px 15px 0 0;
-	width: 200px;
+	padding: 15px 10px;
+	margin: 20px 20px 0 0;
+	width: 28%;
+}
+
+.article-view h2 {
+	font-size: 32px;
 }
 
 .article-view img {
@@ -54,35 +82,44 @@ p {
 }
 
 .article-view {
-	background-color: #e7e7e7;
-	margin-right: 15px;
+	background-color: $light-background;
+	margin-right: 25px;
 	padding: 50px;
 }
 
 .articles {
 	float: left;
-	width: 705px;
+	width: 75%;
 }
 
 .articles-nav {
 	clear: both;
 	padding: 25px 0;
 	text-align: center;
-	width: 705px;
+	width: 70%;
 }
 
 .articles-nav a {
+	color: $light-background;
 	padding-left: 10px;
 	text-decoration: none;
 }
 
-.more-btn a {
-	text-decoration: none;
+.more-btn {
+	background-color: $dark-background;
+	padding: 10px 25px;
+	width: 72px;
 }
 
-.more-btn {
-	background-color: #FFFFFF;
-	border: 1px solid #000000;
-	padding: 5px 25px;
-	width: 66px;
+.pubdate {
+	font-size: 14px;
+}
+
+.social-share li {
+	float: left;
+	list-style: none;
+}
+
+.social-share {
+	float: right;
 }
