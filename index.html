@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mi Blog</title>
 	<link rel="stylesheet" type="text/css" href="css/normalizer.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -110,20 +111,22 @@
 		</article>
 	</section>
 	<section class="recent-articles">
-		<h2>Artículos recientes</h2>
-		<article class="recent-article-item">
-			<h3><a href="article.html">Un artículo muy interesante</a></h3>
-			<p class="pubdate"><time pubdate datetime="2015-08-08">8 de agosto de 2015</time></p>
-		</article>
-		<article class="recent-article-item">
-			<h3><a href="article.html">Otro artículo muy interesante</a></h3>
-			<p class="pubdate"><time pubdate datetime="2015-07-31">31 de julio de 2015</time></p>
-		</article>
-		<article class="recent-article-item">
-			<h3><a href="article.html">Un artículo más</a></h3>
-			<p class="pubdate"><time pubdate datetime="2015-07-24">24 de julio de 2015</time></p>
-		</article>
-		<a class="see-all" href="#">Ver todos ></a> 
+		<div class="sidebar-container">
+			<h2>Artículos recientes</h2>
+			<article class="recent-article-item">
+				<h3><a href="article.html">Un artículo muy interesante</a></h3>
+				<p class="pubdate"><time pubdate datetime="2015-08-08">8 de agosto de 2015</time></p>
+			</article>
+			<article class="recent-article-item">
+				<h3><a href="article.html">Otro artículo muy interesante</a></h3>
+				<p class="pubdate"><time pubdate datetime="2015-07-31">31 de julio de 2015</time></p>
+			</article>
+			<article class="recent-article-item">
+				<h3><a href="article.html">Un artículo más</a></h3>
+				<p class="pubdate"><time pubdate datetime="2015-07-24">24 de julio de 2015</time></p>
+			</article>
+			<p class="see-all"><a href="#">Ver todos ></a><p>
+		</div>
 	</section>
 	<nav class="articles-nav">
 		<span>1 de 23</span>
@@ -131,7 +134,7 @@
 		<a href="#">Última >></a>
 	</nav>
 	<footer>
-		<span class="copyright">&copy; 2015 Fulanito de Tal</span>
+		<p class="copyright">&copy; 2015 Fulanito de Tal</p>
 		<nav class="social-share">
 			<ul>
 				<li class="social-icon"><a href="#"><img src="imgs/facebook-icon.png" alt="facebook icon"></a></li>

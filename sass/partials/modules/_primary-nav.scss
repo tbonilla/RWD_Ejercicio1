@@ -1,21 +1,17 @@
 .primary-nav li {
 	font-size: 24px;
-	display: inline-block;
 	list-style: none;
-	margin-right: 25px;
 	text-decoration: none;
 }
 
 .primary-nav ul {
 	line-height: 80px;
-	margin-left: 25px;
 	vertical-align: middle;
 }
 
 .primary-nav {
-	background-color: $dark-background;
-	height: 80px;
-	margin-top: 20px;
+	background-color: $nav-background;
 	overflow: hidden;
+	text-align: center;
 	width: 100%;
 }

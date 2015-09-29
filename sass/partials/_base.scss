@@ -8,19 +8,15 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
 address {
 	padding-bottom: 35px;
 }
 
 body {
-	background-color: $body-background;
+	background-image: url(../imgs/pattern.png);
 	font-family: $general-text;
-	width: $content-width;
 	margin: 0 auto;
+	width: 100%;
 }
 
 h1, h2, h3 {
@@ -40,73 +36,75 @@ p {
 	font-size: 16px;
 }
 
-.article {
-	float: left;
-	margin: 20px 0;
-	width: 75%;
-}
+//Estilo article
 
-.preview-container {
+.article-view {
+	background-color: $article-background;
 	margin: 0 auto;
-	width: 200px;
-}
-
-.article-preview img {
-	width: 200px;
-}
-
-.article-preview p {
-	padding-bottom: 10px;
-}
-
-.article-preview {
-	background-color: $light-background;
-	float: left;
-	padding: 15px 10px;
-	margin: 20px 20px 0 0;
-	width: 28%;
+	margin-top: 20px;
+	width: 95%;
 }
 
 .article-view h2 {
 	font-size: 32px;
+	padding-top: 20px;
 }
 
 .article-view img {
 	display: block;
-	padding: 15px 0 35px 0;
 	margin: 0 auto;
+	padding-bottom: 20px;
+	width: 95%;
 }
 
 .article-view p {
 	padding-bottom: 20px;
 }
 
-.article-view {
-	background-color: $light-background;
-	margin-right: 25px;
-	padding: 50px;
+.article-container {
+	margin: 0 auto;
+	width: 95%;
 }
 
-.articles {
-	float: left;
-	width: 75%;
+//Estilo index
+
+.article-preview {
+	background-color: $article-background;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 30px 0;
+	width: 95%;
+}
+
+.article-preview img {
+	width: 100%;
+}
+
+.article-preview p {
+	padding-bottom: 10px;
+}
+
+.preview-container {
+	margin: 0 auto;
+	width: 70%;
 }
 
 .articles-nav {
 	clear: both;
+	margin: 0 auto;
 	padding: 25px 0;
 	text-align: center;
-	width: 70%;
+	width: 95%;
 }
 
 .articles-nav a {
-	color: $light-background;
+	color: $otherText-color;
 	padding-left: 10px;
 	text-decoration: none;
 }
 
 .more-btn {
-	background-color: $dark-background;
+	background-color: $button-background;
 	padding: 10px 25px;
 	width: 72px;
 }
