@@ -1,5 +1,9 @@
 // Estilos para ejercicio 1 de RWD - Blog
 
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Sofadi+One);
+
 // Parciales
 @import "partials/variables";
 @import "partials/base";
@@ -7,5 +11,7 @@
 // Módulos
 @import "partials/modules/blog-header";
 @import "partials/modules/primary-nav";
+@import "partials/modules/preview-article";
+@import "partials/modules/full-article";
 @import "partials/modules/side-bar";
 @import "partials/modules/footer";

@@ -19,6 +19,10 @@ body {
 	width: 100%;
 }
 
+header {
+	margin-bottom: 15px;
+}
+
 h1, h2, h3 {
 	font-family: $headings;
 	margin: 0;
@@ -34,90 +38,4 @@ h3 {
 
 p {
 	font-size: 16px;
-}
-
-//Estilo article
-
-.article-view {
-	background-color: $article-background;
-	margin: 0 auto;
-	margin-top: 20px;
-	width: 95%;
-}
-
-.article-view h2 {
-	font-size: 32px;
-	padding-top: 20px;
-}
-
-.article-view img {
-	display: block;
-	margin: 0 auto;
-	padding-bottom: 20px;
-	width: 95%;
-}
-
-.article-view p {
-	padding-bottom: 20px;
-}
-
-.article-container {
-	margin: 0 auto;
-	width: 95%;
-}
-
-//Estilo index
-
-.article-preview {
-	background-color: $article-background;
-	margin: 0 auto;
-	margin-top: 20px;
-	padding: 30px 0;
-	width: 95%;
-}
-
-.article-preview img {
-	width: 100%;
-}
-
-.article-preview p {
-	padding-bottom: 10px;
-}
-
-.preview-container {
-	margin: 0 auto;
-	width: 70%;
-}
-
-.articles-nav {
-	clear: both;
-	margin: 0 auto;
-	padding: 25px 0;
-	text-align: center;
-	width: 95%;
-}
-
-.articles-nav a {
-	color: $otherText-color;
-	padding-left: 10px;
-	text-decoration: none;
-}
-
-.more-btn {
-	background-color: $button-background;
-	padding: 10px 25px;
-	width: 72px;
-}
-
-.pubdate {
-	font-size: 14px;
-}
-
-.social-share li {
-	float: left;
-	list-style: none;
-}
-
-.social-share {
-	float: right;
 }

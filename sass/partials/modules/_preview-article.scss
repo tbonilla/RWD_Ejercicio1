@@ -1,0 +1,58 @@
+.article-preview {
+	background-color: $article-background;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 15px 0;
+	width: 290px;
+	@media (min-width: 640px){
+		float: left;
+		margin: 0 15px 15px 15px;
+	}
+}
+
+.article-preview img {
+	height: auto;
+	max-width: 100%;
+	width: inherit; /* IE8 */
+}
+
+.article-preview p {
+	padding-bottom: 10px;
+}
+
+.preview-container {
+	margin: 0 auto;
+	width: 260px;
+}
+
+.articles-nav {
+	clear: both;
+	margin: 0 auto;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.articles-nav a {
+	color: $otherText-color;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.more-btn {
+	background-color: $button-background;
+	padding: 15px 30px;
+	width: 72px;
+}
+
+.pubdate {
+	font-size: 14px;
+}
+
+.social-share li {
+	float: left;
+	list-style: none;
+}
+
+.social-share {
+	float: right;
+}
