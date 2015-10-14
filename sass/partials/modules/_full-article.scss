@@ -1,8 +1,14 @@
+.article {
+	@media (min-width: 1024px){
+		float: left;
+		width: 75%;
+	}
+}
+
 .article-view {
 	background-color: $article-background;
 	margin: 0 auto;
-	margin-top: 20px;
-	width: 95%;
+	margin: 0 15px;
 }
 
 .article-view h2 {

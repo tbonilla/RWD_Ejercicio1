@@ -3,23 +3,28 @@
 	padding-bottom: 25px;
 }
 
-.recent-articles .pubdate {
-	color: $otherText-color;
-	padding-bottom: 35px;
-}
-
 .recent-articles {
 	background-color: $nav-background;
 	margin: 0 auto;
-	margin-top: 20px;
-	padding-top: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 15px 15px 0 15px;
+	width: 304px;
 	@media (min-width: 640px){
+		clear: both;
+		width: 95%;
+	}
+	@media (min-width: 1024px){
 		float: right;
+		margin-bottom: 0;
+		margin-top: 0;
+		width: 25%;
 	}
 }
 
-.sidebar-container {
-	margin: 0 auto;
+.recent-articles .pubdate {
+	color: $otherText-color;
+	padding-bottom: 35px;
 }
 
 .see-all {
