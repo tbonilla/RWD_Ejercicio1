@@ -57,20 +57,50 @@ p {
   vertical-align: middle;
   width: 295px; }
 
-.primary-nav li {
-  font-size: 24px;
-  list-style: none;
-  text-decoration: none; }
-
-.primary-nav ul {
-  line-height: 80px;
-  vertical-align: middle; }
+.menu-toggle {
+  color: #E3A15F; }
+  @media (min-width: 320px) {
+    .menu-toggle {
+      display: block;
+      margin: 25px;
+      width: 100%; } }
+  @media (min-width: 1024px) {
+    .menu-toggle {
+      display: none; } }
 
 .primary-nav {
   background-color: #E3F6F3;
   overflow: hidden;
-  text-align: center;
   width: 100%; }
+
+.primary-nav li {
+  height: auto;
+  list-style-type: none; }
+  @media (min-width: 320px) {
+    .primary-nav li {
+      margin: 0 25px; } }
+  @media (min-width: 1024px) {
+    .primary-nav li {
+      display: inline-block;
+      font-size: 24px;
+      margin-left: 25px;
+      text-decoration: none; } }
+
+.primary-nav-ul {
+  line-height: 80px;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: 0.5s; }
+  @media (min-width: 320px) {
+    .primary-nav-ul {
+      height: 0; } }
+  @media (min-width: 1024px) {
+    .primary-nav-ul {
+      height: auto; } }
+
+@media (min-width: 320px) {
+  .show {
+    height: 320px; } }
 
 @media (min-width: 1024px) {
   .articles {
@@ -86,7 +116,7 @@ p {
   @media (min-width: 640px) {
     .article-preview {
       float: left;
-      margin: 0 15px 15px 15px;
+      margin: 0 0 15px 15px;
       width: 290px; } }
   @media (min-width: 1024px) {
     .article-preview {
@@ -145,12 +175,13 @@ p {
 @media (min-width: 1024px) {
   .article {
     float: left;
+    margin-bottom: 15px;
     width: 75%; } }
 
 .article-view {
   background-color: #F4F7F7;
   margin: 0 auto;
-  margin: 0 15px; }
+  margin-right: 15px; }
 
 .article-view h2 {
   font-size: 32px;
@@ -172,10 +203,6 @@ p {
   margin: 0 auto;
   width: 95%; }
 
-.recent-articles h2 {
-  color: #D95D5D;
-  padding-bottom: 25px; }
-
 .recent-articles {
   background-color: #E3F6F3;
   margin: 0 auto;
@@ -189,10 +216,15 @@ p {
       width: 95%; } }
   @media (min-width: 1024px) {
     .recent-articles {
+      clear: none;
       float: right;
       margin-bottom: 0;
       margin-top: 0;
       width: 25%; } }
+
+.recent-articles h2 {
+  color: #D95D5D;
+  padding-bottom: 25px; }
 
 .recent-articles .pubdate {
   color: #D95D5D;
@@ -213,7 +245,7 @@ footer {
   color: #E3A15F;
   height: 0;
   line-height: 200px;
-  margin-left: 20px;
+  margin-left: 25px;
   vertical-align: middle; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,7 @@
 .article {
 	@media (min-width: 1024px){
 		float: left;
+		margin-bottom: 15px;
 		width: 75%;
 	}
 }
@@ -8,7 +9,7 @@
 .article-view {
 	background-color: $article-background;
 	margin: 0 auto;
-	margin: 0 15px;
+	margin-right: 15px;
 }
 
 .article-view h2 {
